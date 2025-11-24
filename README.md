@@ -1,8 +1,8 @@
 <div align="center">
 <h1>EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses</h1>
 
-[**Enrico Pallotta**]("https://pallottaenrico.github.io/")<sup>**&ast;**</sup>,
-[**Sina Mokhtarzadeh Azar**]("https://scholar.google.com/citations?user=kojTGo8AAAAJ&hl=en")<sup>**&ast;**</sup>,
+[**Enrico Pallotta**](https://pallottaenrico.github.io/)<sup>&ast;</sup>,
+[**Sina Mokhtarzadeh Azar**](https://scholar.google.com/citations?user=kojTGo8AAAAJ&hl=en)<sup>&ast;</sup>,
 [**Lars Dorenboos**](https://scholar.google.com/citations?user=i2LqZCwAAAAJ&hl=en),
 [**Serdar Ozsoy**](https://scholar.google.com/citations?user=6jXE6SYAAAAJ&hl=en),
 [**Umar Iqbal**](https://www.umariqbal.info/),

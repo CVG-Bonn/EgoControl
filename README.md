@@ -12,9 +12,9 @@
 </div>
 
 --- 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)]()
-[![Project Page Badge](https://img.shields.io/badge/Project-EgoControl-Green)]()
-[![Hugging Face Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)]()
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2511.18173)
+[![Project Page Badge](https://img.shields.io/badge/Project-EgoControl-Green)](https://cvg-bonn.github.io/EgoControl/)
+[![Hugging Face Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://cvg-bonn.github.io/EgoControl/)
 ---
 
 🚀 Stay tuned for upcoming code and model releases!

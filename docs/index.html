@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        /* Placeholder background for missing thumbnail images */
+        .thumbnail-item img[src*="placeholder"] {
+            background: linear-gradient(135deg, #058d47 0%, #6abd08 100%);
+            object-fit: cover;
+        }
+
+        .thumbnail-item img {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        iframe {
+        border-radius: 0.5em;
+        width: 27.5em;
+        height: 27.5em;
+        border: none;
+        box-shadow: 0 0 1em 0em rgba(0, 0, 0, 0.15);
+        }
+        @media (max-width: 768px) {
+        iframe {
+            width: 100%;
+            height: 30em;
+        }
+        }
+
+        #architecture-img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        border: none;
+        border-radius: 0; /* removed border radius */
+        box-shadow: none; /* removed box shadow */
+        }
+
+    </style>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>EgoControl</h2>
+            </div>
+            <div class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#abstract">Abstract</a>
+                <a href="#citation">Citation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <h2 class="banner-title">EgoControl</h2>
+                <h3 class="banner-subtitle">Controllable Egocentric Video Generation via 3D Full-Body Poses</h3>
+                <div class="authors">
+                    <a href="https://pallottaenrico.github.io/" target="_blank" ><sup><strong>*</strong></sup>Enrico Pallotta<sup>1,2</sup></a>,
+                    <a href="https://scholar.google.com/citations?user=kojTGo8AAAAJ&hl=en" target="_blank"><sup><strong>*</strong></sup>Sina Mokhtarzadeh Azar<sup>1,2</sup></a>,
+                    <a href="https://scholar.google.com/citations?user=i2LqZCwAAAAJ&hl=en" target="_blank">Lars Doorenbos<sup>1,2</sup></a>,
+                    <a href="https://scholar.google.com/citations?user=6jXE6SYAAAAJ&hl=en" target="_blank">Serdar Ozsoy<sup>1,2</sup></a>,
+                    <a href="https://www.umariqbal.info/" target="_blank">Umar Iqbal<sup>3</sup></a>,
+                    <a href="https://scholar.google.de/citations?user=1CLaPMEAAAAJ" target="_blank">Juergen Gall<sup>1,2</sup></a>
+                    <br><br>
+                    <sup>1</sup>University of Bonn <sup>2</sup>Lamarr Institute for Machine Learning and Artificial Intelligence <sup>3</sup>NVIDIA
+                    <br>
+                    *Equal Contribution
+                </div>
+
+                <div class="banner-links">
+                    <a href="https://arxiv.org/abs/2511.18173" target="_blank" class="link-btn">
+                        <i class="fas fa-file-pdf"></i> arXiv
+                    </a>
+                    <a href="https://github.com/CVG-Bonn/EgoControl/tree/main" target="_blank" class="link-btn">
+                        <i class="fab fa-github"></i> Coming soon
+                    </a>
+                    <a href="" target="_blank" class="link-btn">
+                        <img src="assets/hf-logo.svg" alt="HuggingFace" style="width:24px;"> Coming soon
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-demo", id="overview">
+        <div class="container">
+            <div class="tldr-content">
+                <p>
+                    <i class="fas fa-bolt gradient-icon"></i> <strong>TL;DR:</strong>
+                    EgoControl generates first person view videos, controlled on the full-body motion of the FPV agent.<br>
+                    With just a few context frames you can explore various future scenarios by controlling the <strong>full agent body</strong>.
+                </p>
+            </div>
+            <div class="demo-video-container">
+                <!-- Loading Indicator -->
+                <div class="video-loader" id="mainVideoLoader">
+                    <div class="loader-spinner"></div>
+                    <div class="loader-text">Loading video...</div>
+                    <div class="loader-progress">
+                        <div class="progress-bar" id="mainVideoProgress"></div>
+                    </div>
+                </div>
+                <!-- Main Video -->
+                <video 
+                    class="main-video lazy-video" 
+                    id="mainVideo"
+                    playsinline 
+                    muted 
+                    autoplay 
+                    loop
+                    preload="metadata"
+                    controls
+                    data-src="./assets/teaser_video.mp4">
+                    <source data-src="./assets/teaser_video.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abstract -->
+    <section id="abstract" class="abstract" style="text-align: left;">
+        <div class="container">
+            <div class="abstract-content" style="text-align: left;">
+                <h3><i class="fas fa-file-alt gradient-icon"></i> Abstract</h3>
+                <p>Egocentric video generation with fine-grained control through body motion is a key requirement towards embodied AI agents that can simulate, predict, and plan actions.
+                    In this work, we propose <strong>EgoControl</strong>, a pose-controllable video diffusion model trained on egocentric data.
+                    We train a video prediction model to condition future frame generation on explicit 3D body pose sequences. To achieve precise motion control, we introduce a novel pose representation that captures both global camera dynamics and articulated body movements, and integrate it through a dedicated control mechanism within the diffusion process. Given a short sequence of observed frames and a sequence of target poses, EgoControl generates temporally coherent and visually realistic future frames that align with the provided pose control.
+                    Experimental results demonstrate that EgoControl produces high-quality, pose-consistent egocentric videos, paving the way toward controllable embodied video simulation and understanding.</p>
+                <img src="assets/teaser.png" alt="Performance Comparison Chart" style="width: 100%; height: auto; margin-top: 0px; border-radius: 8px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Citation -->
+    <section id="citation" class="citation">
+        <div class="container">
+            <h2 class="section-title">Citation</h2>
+            <div class="citation-box">
+                <!-- Added copy button -->
+                <button class="copy-code-btn" type="button" aria-label="Copy citation">
+                    <i class="fas fa-copy"></i>
+                </button>
+                <pre><code>@article{egocontrol2025,
+  title={EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses},
+  author={Enrico Pallotta and Sina Mokhtarzadeh Azar and Lars Doorenbos and Serdar Ozsoy and Umar Iqbal and Juergen Gall},
+  journal={arXiv preprint arXiv:2511.18173},
+  year={2025}
+}</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>This webpage template is adapted from the project page <a style="text-decoration: none; color: #4682B4;" href="https://github.com/depth-anything-3/depth-anything-3.github.io/tree/main "> source code </a>
+            of <a  style="text-decoration: none; color: #4682B4; " href="https://depth-anything-3.github.io/"> Depth Anything 3</a>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

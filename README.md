@@ -1,12 +1,14 @@
 <div align="center">
 <h1>EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses</h1>
 
-[**Enrico Pallotta***](https://pallottaenrico.github.io/),
-[**Sina Mokhtarzadeh Azar***](https://scholar.google.com/citations?user=kojTGo8AAAAJ&hl=en),
-[**Lars Dorenboos**](https://scholar.google.com/citations?user=i2LqZCwAAAAJ&hl=en),
-[**Serdar Ozsoy**](https://scholar.google.com/citations?user=6jXE6SYAAAAJ&hl=en),
-[**Umar Iqbal**](https://www.umariqbal.info/),
-[**Juergen Gall**](https://scholar.google.de/citations?user=1CLaPMEAAAAJ),
+[**Enrico Pallotta***](https://pallottaenrico.github.io/)<sup>1,2</sup> . 
+[**Sina Mokhtarzadeh Azar***](https://scholar.google.com/citations?user=kojTGo8AAAAJ&hl=en)<sup>1,2</sup> . 
+[**Lars Dorenboos**](https://scholar.google.com/citations?user=i2LqZCwAAAAJ&hl=en)<sup>1,2</sup> . 
+[**Serdar Ozsoy**](https://scholar.google.com/citations?user=6jXE6SYAAAAJ&hl=en)<sup>1,2</sup> . 
+[**Umar Iqbal**](https://www.umariqbal.info/)<sup>3</sup> . 
+[**Juergen Gall**](https://scholar.google.de/citations?user=1CLaPMEAAAAJ)<sup>1,2</sup> . 
+
+<sup>1</sup>University of Bonn, <sup>2</sup>Lamarr Institute for Machine Learning and Artificial Intelligence, <sup>3</sup>NVIDIA
 
 &ast;Equal Contribution
 </div>

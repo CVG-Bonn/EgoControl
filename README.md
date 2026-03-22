@@ -12,6 +12,8 @@
 <sup>1</sup>University of Bonn, <sup>2</sup>Lamarr Institute for Machine Learning and Artificial Intelligence, <sup>3</sup>NVIDIA
 
 &ast;Equal Contribution
+
+<h3>⭐ CVPR 2026</h3>
 </div>
 
 --- 
@@ -20,4 +22,4 @@
 [![Hugging Face Badge](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://cvg-bonn.github.io/EgoControl/)
 ---
 
-🚀 Stay tuned for upcoming code and model releases!
+🚀 Code and models are going to be released soon!

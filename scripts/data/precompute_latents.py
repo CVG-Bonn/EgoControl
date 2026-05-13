@@ -279,7 +279,8 @@ def process_video_streaming(
         clip_CTHW = clip_TCHW.permute(1, 0, 2, 3).contiguous()
         clip_BCTHW = clip_CTHW.unsqueeze(0).to(device)
 
-        out_path = latents_dir / f"{clip_number:06d}_{clip_start_index:06d}_{end_index_inclusive+1:06d}.pt"
+        add_idx = 0 if clip_number == 0 else 1
+        out_path = latents_dir / f"{clip_number:06d}_{clip_start_index+add_idx:06d}_{end_index_inclusive:06d}.pt"
         if skip_existing and out_path.exists():
             log.info(f"Skipping existing latents: {out_path.name}")
             clip_frames = []

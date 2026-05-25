@@ -1,6 +1,3 @@
-# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA
-# SPDX-License-Identifier: Apache-2.0
-#
 # Precompute per-clip VAE latents for videos under a dataset root.
 #
 # What this script does:

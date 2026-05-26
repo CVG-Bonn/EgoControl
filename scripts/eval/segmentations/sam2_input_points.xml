@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>3184513</id>
+      <size>209</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-10-28 16:40:20.998611+00:00</created>
+      <updated>2025-10-28 17:34:45.308061+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>208</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3185920</id>
+          <start>0</start>
+          <stop>208</stop>
+          <url>https://app.cvat.ai/api/jobs/3184513</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>enrico66</username>
+        <email>pallottenrico@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>joints</name>
+          <color>#ff0000</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-10-28 17:35:04.140449+00:00</dumped>
+  </meta>
+  <image id="0" name="20231113_s0_patricia_gutierrez_act3_0fk89s_chunk_0128.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="158.64,434.74" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="298.74,389.47;380.69,423.42" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="20231113_s0_patricia_gutierrez_act3_0fk89s_chunk_0144.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="303.81,389.86;345.96,441.77" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="134.06,467.13;144.98,452.69" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="20231113_s0_patricia_gutierrez_act3_0fk89s_chunk_0192.png" width="480" height="480">
+  </image>
+  <image id="3" name="20231113_s0_patricia_gutierrez_act3_0fk89s_chunk_0208.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="343.62,353.96;403.72,394.55" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="144.59,382.45;74.74,442.16" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="20231113_s0_patricia_gutierrez_act3_0fk89s_chunk_0304.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="181.28,424.20;139.13,456.20" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="20231113_s1_greg_clark_act3_59jat5_chunk_0012.png" width="480" height="480">
+  </image>
+  <image id="6" name="20231113_s1_greg_clark_act3_59jat5_chunk_0108.png" width="480" height="480">
+  </image>
+  <image id="7" name="20231113_s1_greg_clark_act3_59jat5_chunk_0172.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="132.11,345.38;85.28,426.55" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="328.79,382.45;371.33,418.74" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="20231113_s1_greg_clark_act3_59jat5_chunk_0204.png" width="480" height="480">
+  </image>
+  <image id="9" name="20231113_s1_greg_clark_act3_59jat5_chunk_0316.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="368.20,349.28;409.57,380.11" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="219.52,359.42;105.96,436.30" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="20231206_s0_david_morgan_act2_5gguan_chunk_0008.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="352.98,359.42;387.33,412.11" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="20231206_s0_david_morgan_act2_5gguan_chunk_0024.png" width="480" height="480">
+  </image>
+  <image id="12" name="20231206_s0_david_morgan_act2_5gguan_chunk_0040.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="260.89,108.89;352.20,202.16;431.03,299.33" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="20231206_s0_david_morgan_act2_5gguan_chunk_0056.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="361.96,344.98;380.69,403.91" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="210.16,362.94;157.08,433.18" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="20231206_s0_david_morgan_act2_5gguan_chunk_0072.png" width="480" height="480">
+  </image>
+  <image id="15" name="20231206_s0_david_morgan_act2_5gguan_chunk_0088.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="281.57,254.06;198.45,305.57;114.16,396.89" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="320.59,202.94;389.67,237.67;444.69,259.91" z_order="0">
+    </points>
+  </image>
+  <image id="16" name="20231206_s0_david_morgan_act2_5gguan_chunk_0104.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="257.38,227.91;183.23,270.84;122.35,357.08" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="323.33,207.23;366.25,261.86;440.01,279.81" z_order="0">
+    </points>
+  </image>
+  <image id="17" name="20231206_s0_david_morgan_act2_5gguan_chunk_0120.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="286.64,298.16;223.81,333.67;136.40,382.84" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="358.84,317.67;436.11,317.67" z_order="0">
+    </points>
+  </image>
+  <image id="18" name="20231206_s0_david_morgan_act2_5gguan_chunk_0136.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="352.59,302.06;415.81,344.59" z_order="0">
+    </points>
+  </image>
+  <image id="19" name="20231206_s0_david_morgan_act2_5gguan_chunk_0152.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="361.18,280.20;417.77,337.18" z_order="0">
+    </points>
+  </image>
+  <image id="20" name="20231206_s0_david_morgan_act2_5gguan_chunk_0168.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="345.57,199.81;411.91,252.11" z_order="0">
+    </points>
+  </image>
+  <image id="21" name="20231206_s0_david_morgan_act2_5gguan_chunk_0184.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="220.69,246.64;156.69,304.79;97.37,377.77" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="298.74,231.42;372.50,281.37;437.28,304.40" z_order="0">
+    </points>
+  </image>
+  <image id="22" name="20231206_s0_david_morgan_act2_5gguan_chunk_0216.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="207.81,289.96;178.94,357.08;117.28,411.72" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="330.35,207.23;428.69,260.69" z_order="0">
+    </points>
+  </image>
+  <image id="23" name="20231206_s0_david_morgan_act2_5gguan_chunk_0232.png" width="480" height="480">
+  </image>
+  <image id="24" name="20231206_s0_david_morgan_act2_5gguan_chunk_0248.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="258.16,349.28;194.94,430.45" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="385.77,388.30" z_order="0">
+    </points>
+  </image>
+  <image id="25" name="20231206_s0_david_morgan_act2_5gguan_chunk_0264.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="197.67,256.01;112.98,307.91;40.79,339.52" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="348.69,335.23;387.72,364.50" z_order="0">
+    </points>
+  </image>
+  <image id="26" name="20231206_s0_david_morgan_act2_5gguan_chunk_0280.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="310.84,412.89" z_order="0">
+    </points>
+  </image>
+  <image id="27" name="20231206_s0_david_morgan_act2_5gguan_chunk_0296.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="182.06,405.08" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="364.30,365.28" z_order="0">
+    </points>
+  </image>
+  <image id="28" name="20231206_s0_david_morgan_act2_5gguan_chunk_0312.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="63.81,386.35" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="358.06,323.91" z_order="0">
+    </points>
+  </image>
+  <image id="29" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0014.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="355.72,396.11" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="209.77,453.08" z_order="0">
+    </points>
+  </image>
+  <image id="30" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0030.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="140.69,216.20;68.11,335.62" z_order="0">
+    </points>
+  </image>
+  <image id="31" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0046.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="413.47,385.96" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="304.60,393.00;259.70,436.30" z_order="0">
+    </points>
+  </image>
+  <image id="32" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0062.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="404.89,277.47;433.77,303.23" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="224.20,336.01;157.47,421.08" z_order="0">
+    </points>
+  </image>
+  <image id="33" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0078.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="222.64,291.13;88.01,370.74" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="346.35,183.81;454.84,230.25" z_order="0">
+    </points>
+  </image>
+  <image id="34" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0094.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="230.84,200.20;100.50,297.37" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="326.45,180.30;429.08,246.25" z_order="0">
+    </points>
+  </image>
+  <image id="35" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0110.png" width="480" height="480">
+  </image>
+  <image id="36" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0126.png" width="480" height="480">
+  </image>
+  <image id="37" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0142.png" width="480" height="480">
+  </image>
+  <image id="38" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0158.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="394.74,277.08;441.18,317.28" z_order="0">
+    </points>
+  </image>
+  <image id="39" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0190.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="239.03,392.98;182.06,448.01;400.20,117.08;452.11,182.64" z_order="0">
+    </points>
+  </image>
+  <image id="40" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0206.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="200.01,351.23;128.20,422.64" z_order="0">
+    </points>
+  </image>
+  <image id="41" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0222.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="209.38,269.67;95.40,361.00" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="302.25,297.38;410.35,363.72" z_order="0">
+    </points>
+  </image>
+  <image id="42" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0238.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="231.23,359.42;182.45,437.86" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="376.40,357.10;393.20,382.10" z_order="0">
+    </points>
+  </image>
+  <image id="43" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0270.png" width="480" height="480">
+  </image>
+  <image id="44" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0286.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="217.57,343.03;177.77,428.50" z_order="0">
+    </points>
+  </image>
+  <image id="45" name="20231206_s1_virginia_perez_act2_69w9xe_chunk_0302.png" width="480" height="480">
+  </image>
+  <image id="46" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0020.png" width="480" height="480">
+  </image>
+  <image id="47" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0036.png" width="480" height="480">
+  </image>
+  <image id="48" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0052.png" width="480" height="480">
+  </image>
+  <image id="49" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0068.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="261.67,141.28;155.13,250.55;73.96,311.81" z_order="0">
+    </points>
+  </image>
+  <image id="50" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0100.png" width="480" height="480">
+  </image>
+  <image id="51" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0116.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="299.91,402.74;213.67,433.57" z_order="0">
+    </points>
+  </image>
+  <image id="52" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0132.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="249.96,309.86;210.94,387.52" z_order="0">
+    </points>
+  </image>
+  <image id="53" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0148.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="189.47,396.89;157.86,449.57" z_order="0">
+    </points>
+  </image>
+  <image id="54" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0180.png" width="480" height="480">
+  </image>
+  <image id="55" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0212.png" width="480" height="480">
+  </image>
+  <image id="56" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0228.png" width="480" height="480">
+  </image>
+  <image id="57" name="20231207_s0_jodi_morrison_act4_iplp4x_chunk_0276.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="181.28,452.69" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="229.67,417.96;272.20,446.06" z_order="0">
+    </points>
+  </image>
+  <image id="58" name="20231207_s1_katie_white_act4_ie44mj_chunk_0044.png" width="480" height="480">
+  </image>
+  <image id="59" name="20231207_s1_katie_white_act4_ie44mj_chunk_0076.png" width="480" height="480">
+  </image>
+  <image id="60" name="20231207_s1_katie_white_act4_ie44mj_chunk_0108.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="327.62,401.18;354.94,441.77" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="244.11,457.77" z_order="0">
+    </points>
+  </image>
+  <image id="61" name="20231207_s1_katie_white_act4_ie44mj_chunk_0140.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="203.13,353.96;159.42,425.77" z_order="0">
+    </points>
+  </image>
+  <image id="62" name="20231207_s1_katie_white_act4_ie44mj_chunk_0172.png" width="480" height="480">
+  </image>
+  <image id="63" name="20231207_s1_katie_white_act4_ie44mj_chunk_0220.png" width="480" height="480">
+  </image>
+  <image id="64" name="20231207_s1_katie_white_act4_ie44mj_chunk_0252.png" width="480" height="480">
+  </image>
+  <image id="65" name="20231207_s1_katie_white_act4_ie44mj_chunk_0268.png" width="480" height="480">
+  </image>
+  <image id="66" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0004.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="313.96,373.08;342.84,416.01" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="71.62,341.86;34.16,348.89" z_order="0">
+    </points>
+  </image>
+  <image id="67" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0020.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="203.13,343.42;174.64,418.74" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="315.91,360.20;347.91,407.42" z_order="0">
+    </points>
+  </image>
+  <image id="68" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0036.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="228.11,375.81;228.89,434.74" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="326.06,373.08;384.20,401.18" z_order="0">
+    </points>
+  </image>
+  <image id="69" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0068.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="204.30,312.98;155.91,403.52" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="321.77,284.89;389.28,370.35" z_order="0">
+    </points>
+  </image>
+  <image id="70" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0100.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="357.28,346.94;249.57,393.37" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="415.03,395.33" z_order="0">
+    </points>
+  </image>
+  <image id="71" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0148.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="178.94,283.33;88.40,353.18" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="394.74,339.91" z_order="0">
+    </points>
+  </image>
+  <image id="72" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0196.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="217.57,315.33;184.40,438.25" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="286.64,325.47;351.03,400.40" z_order="0">
+    </points>
+  </image>
+  <image id="73" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0212.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="236.69,318.06;204.30,420.69" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="309.67,341.86;355.72,436.30" z_order="0">
+    </points>
+  </image>
+  <image id="74" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0228.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="298.35,421.47" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="326.84,287.23;432.20,315.33" z_order="0">
+    </points>
+  </image>
+  <image id="75" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0244.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="248.01,370.74;231.62,424.59" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="387.72,254.84;436.11,282.94" z_order="0">
+    </points>
+  </image>
+  <image id="76" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0308.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="310.45,292.30;359.23,387.91" z_order="0">
+    </points>
+  </image>
+  <image id="77" name="20231213_s0_shawn_wright_act0_p7ib77_chunk_0324.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="208.98,331.33;166.84,423.03" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="267.52,313.77;330.74,384.79" z_order="0">
+    </points>
+  </image>
+  <image id="78" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0023.png" width="480" height="480">
+  </image>
+  <image id="79" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0055.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="203.52,352.01;173.08,443.33" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="309.28,256.01;394.35,337.96" z_order="0">
+    </points>
+  </image>
+  <image id="80" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0071.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="377.57,323.13;413.08,363.72" z_order="0">
+    </points>
+  </image>
+  <image id="81" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0087.png" width="480" height="480">
+  </image>
+  <image id="82" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0103.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="280.79,83.91;157.86,156.50;48.98,179.52" z_order="0">
+    </points>
+  </image>
+  <image id="83" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0119.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="113.38,227.52;68.50,342.25" z_order="0">
+    </points>
+  </image>
+  <image id="84" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0135.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="49.77,137.77;30.64,241.57" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="331.52,229.47;399.03,292.69" z_order="0">
+    </points>
+  </image>
+  <image id="85" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0151.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="168.01,242.35;112.59,396.89" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="318.64,320.79;383.03,405.08" z_order="0">
+    </points>
+  </image>
+  <image id="86" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0167.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="219.13,231.03;136.01,344.98" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="331.13,247.03;428.30,325.86" z_order="0">
+    </points>
+  </image>
+  <image id="87" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0183.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="142.25,343.03;86.45,423.42" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="321.77,333.67;418.94,364.50" z_order="0">
+    </points>
+  </image>
+  <image id="88" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0215.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="232.01,293.47;86.45,291.91" z_order="0">
+    </points>
+  </image>
+  <image id="89" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0295.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="219.91,316.89;179.33,383.23" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="429.50,330.50" z_order="0">
+    </points>
+  </image>
+  <image id="90" name="20231213_s0_shawn_wright_act2_yay1vv_chunk_0311.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="388.11,275.91;429.47,344.98" z_order="0">
+    </points>
+  </image>
+  <image id="91" name="20231213_s0_shawn_wright_act5_z5oir7_chunk_0002.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="116.89,235.33;123.52,340.69" z_order="0">
+    </points>
+  </image>
+  <image id="92" name="20231213_s0_shawn_wright_act5_z5oir7_chunk_0162.png" width="480" height="480">
+  </image>
+  <image id="93" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0002.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="236.69,364.50;214.84,429.67" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="446.25,336.79" z_order="0">
+    </points>
+  </image>
+  <image id="94" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0018.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="313.57,387.13" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="226.54,444.50" z_order="0">
+    </points>
+  </image>
+  <image id="95" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0034.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="228.89,327.81;146.16,424.59" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="378.74,383.62" z_order="0">
+    </points>
+  </image>
+  <image id="96" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0098.png" width="480" height="480">
+  </image>
+  <image id="97" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0114.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="317.08,391.03;239.42,453.47" z_order="0">
+    </points>
+  </image>
+  <image id="98" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0130.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="258.54,327.42;250.35,415.62" z_order="0">
+    </points>
+  </image>
+  <image id="99" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0178.png" width="480" height="480">
+  </image>
+  <image id="100" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0258.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="240.98,332.89;169.96,413.28" z_order="0">
+    </points>
+  </image>
+  <image id="101" name="20231213_s1_brenda_jacobs_act0_8v2ddn_chunk_0322.png" width="480" height="480">
+  </image>
+  <image id="102" name="20231213_s1_brenda_jacobs_act2_q91zix_chunk_0021.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="145.38,400.01;126.64,447.23" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="388.50,345.38;397.47,369.96" z_order="0">
+    </points>
+  </image>
+  <image id="103" name="20231213_s1_brenda_jacobs_act2_q91zix_chunk_0101.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="276.50,333.67;134.84,442.55" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="356.11,336.01;374.06,426.16" z_order="0">
+    </points>
+  </image>
+  <image id="104" name="20231213_s1_brenda_jacobs_act2_q91zix_chunk_0197.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="340.89,316.11;388.50,368.79" z_order="0">
+    </points>
+  </image>
+  <image id="105" name="20231213_s1_brenda_jacobs_act2_q91zix_chunk_0293.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="192.20,176.40;104.40,308.69" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="461.08,219.33" z_order="0">
+    </points>
+  </image>
+  <image id="106" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0000.png" width="480" height="480">
+  </image>
+  <image id="107" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0016.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="270.64,348.50;223.81,439.81" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="333.47,373.08;376.40,420.69" z_order="0">
+    </points>
+  </image>
+  <image id="108" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0032.png" width="480" height="480">
+  </image>
+  <image id="109" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0048.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="173.86,336.40;103.62,439.03" z_order="0">
+    </points>
+  </image>
+  <image id="110" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0064.png" width="480" height="480">
+  </image>
+  <image id="111" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0080.png" width="480" height="480">
+  </image>
+  <image id="112" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0096.png" width="480" height="480">
+  </image>
+  <image id="113" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0112.png" width="480" height="480">
+  </image>
+  <image id="114" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0144.png" width="480" height="480">
+  </image>
+  <image id="115" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0160.png" width="480" height="480">
+  </image>
+  <image id="116" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0176.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="409.57,336.79;411.52,379.72" z_order="0">
+    </points>
+  </image>
+  <image id="117" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0192.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="348.30,355.91;389.28,392.20" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="110.64,455.42" z_order="0">
+    </points>
+  </image>
+  <image id="118" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0224.png" width="480" height="480">
+  </image>
+  <image id="119" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0240.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="246.84,281.38;154.74,375.03" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="379.91,381.67" z_order="0">
+    </points>
+  </image>
+  <image id="120" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0256.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="404.89,396.11" z_order="0">
+    </points>
+  </image>
+  <image id="121" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0272.png" width="480" height="480">
+  </image>
+  <image id="122" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0288.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="226.94,327.42;175.03,408.59" z_order="0">
+    </points>
+  </image>
+  <image id="123" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0304.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="381.86,365.28;388.11,393.37" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="272.59,416.40;242.55,456.98" z_order="0">
+    </points>
+  </image>
+  <image id="124" name="20231213_s1_brenda_jacobs_act5_al5uzv_chunk_0320.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="217.18,315.72;141.86,435.52" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="323.33,400.01;364.69,433.57" z_order="0">
+    </points>
+  </image>
+  <image id="125" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0016.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="178.94,258.74;108.69,371.13" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="360.01,116.69;416.98,254.06" z_order="0">
+    </points>
+  </image>
+  <image id="126" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0032.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="316.69,242.35;392.79,308.69" z_order="0">
+    </points>
+  </image>
+  <image id="127" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0048.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="313.18,297.77;383.42,367.62" z_order="0">
+    </points>
+  </image>
+  <image id="128" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0064.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="307.72,274.74;390.84,376.20" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="148.11,466.74" z_order="0">
+    </points>
+  </image>
+  <image id="129" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0112.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="281.96,380.89;208.20,440.20" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="330.35,384.40;361.18,432.79" z_order="0">
+    </points>
+  </image>
+  <image id="130" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0128.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="171.13,295.81;107.52,414.45" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="301.47,300.11;359.23,396.11" z_order="0">
+    </points>
+  </image>
+  <image id="131" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0144.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="235.91,354.35;364.30,400.79" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="185.96,399.23;175.42,443.33" z_order="0">
+    </points>
+  </image>
+  <image id="132" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0160.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="160.98,279.42;124.69,380.89" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="232.79,260.69;344.01,341.47" z_order="0">
+    </points>
+  </image>
+  <image id="133" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0176.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="139.13,326.25;104.01,418.35" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="263.23,230.64;419.72,341.08" z_order="0">
+    </points>
+  </image>
+  <image id="134" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0192.png" width="480" height="480">
+  </image>
+  <image id="135" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0208.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="233.96,270.84;140.69,384.40" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="329.57,251.72;422.84,344.20" z_order="0">
+    </points>
+  </image>
+  <image id="136" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0224.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="223.42,285.67;159.42,388.69" z_order="0">
+    </points>
+  </image>
+  <image id="137" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0240.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="240.59,330.94;153.18,425.77" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="328.79,345.38;404.89,400.79" z_order="0">
+    </points>
+  </image>
+  <image id="138" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0256.png" width="480" height="480">
+  </image>
+  <image id="139" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0288.png" width="480" height="480">
+  </image>
+  <image id="140" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0304.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="271.03,325.47;351.81,374.25" z_order="0">
+    </points>
+  </image>
+  <image id="141" name="20231221_s0_sara_wilson_act6_i9kr0t_chunk_0320.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="162.20,268.10;102.45,381.28" z_order="0">
+    </points>
+  </image>
+  <image id="142" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0062.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="252.30,407.03;342.84,442.94" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="201.18,450.35" z_order="0">
+    </points>
+  </image>
+  <image id="143" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0094.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="252.30,345.77;114.55,396.50" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="352.98,399.62;380.69,408.98" z_order="0">
+    </points>
+  </image>
+  <image id="144" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0110.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="226.94,408.98;222.25,452.69" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="302.25,423.03;330.35,452.30" z_order="0">
+    </points>
+  </image>
+  <image id="145" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0142.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="149.28,432.01" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="300.69,350.84;369.77,386.35" z_order="0">
+    </points>
+  </image>
+  <image id="146" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0174.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="130.54,434.35" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="294.06,360.59;354.55,397.67" z_order="0">
+    </points>
+  </image>
+  <image id="147" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0190.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="309.28,444.50" z_order="0">
+    </points>
+  </image>
+  <image id="148" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0206.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="177.38,439.81" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="327.62,338.35;392.40,364.50;413.90,389.90" z_order="0">
+    </points>
+  </image>
+  <image id="149" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0222.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="237.08,289.57;161.37,399.23" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="332.69,298.94;397.08,372.30" z_order="0">
+    </points>
+  </image>
+  <image id="150" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0254.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="228.11,337.57;159.42,416.01" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="410.35,338.74" z_order="0">
+    </points>
+  </image>
+  <image id="151" name="20231221_s1_edward_contreras_act6_sjxq8r_chunk_0270.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="202.35,369.18;155.13,442.55" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="327.62,433.96" z_order="0">
+    </points>
+  </image>
+  <image id="152" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0028.png" width="480" height="480">
+  </image>
+  <image id="153" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0060.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="313.18,412.50;340.50,434.74" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="205.08,462.06" z_order="0">
+    </points>
+  </image>
+  <image id="154" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0076.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="284.30,439.81" z_order="0">
+    </points>
+  </image>
+  <image id="155" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0092.png" width="480" height="480">
+  </image>
+  <image id="156" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0124.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="365.86,360.20" z_order="0">
+    </points>
+  </image>
+  <image id="157" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0140.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="370.50,376.60" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="198.06,435.13" z_order="0">
+    </points>
+  </image>
+  <image id="158" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0156.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="267.13,458.94" z_order="0">
+    </points>
+  </image>
+  <image id="159" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0172.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="239.42,331.72;207.42,440.20" z_order="0">
+    </points>
+  </image>
+  <image id="160" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0236.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="250.35,389.08;246.84,445.67" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="344.01,415.62" z_order="0">
+    </points>
+  </image>
+  <image id="161" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0284.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="178.54,380.11;163.72,430.84" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="359.62,421.08" z_order="0">
+    </points>
+  </image>
+  <image id="162" name="20231222_s0_denise_carter_act0_3rt2lg_chunk_0300.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="315.91,344.98;360.79,408.98" z_order="0">
+    </points>
+  </image>
+  <image id="163" name="20231222_s0_denise_carter_act5_monllv_chunk_0004.png" width="480" height="480">
+  </image>
+  <image id="164" name="20231222_s0_denise_carter_act5_monllv_chunk_0020.png" width="480" height="480">
+  </image>
+  <image id="165" name="20231222_s0_denise_carter_act5_monllv_chunk_0036.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="268.30,423.42;317.47,458.94" z_order="0">
+    </points>
+  </image>
+  <image id="166" name="20231222_s0_denise_carter_act5_monllv_chunk_0052.png" width="480" height="480">
+  </image>
+  <image id="167" name="20231222_s0_denise_carter_act5_monllv_chunk_0068.png" width="480" height="480">
+  </image>
+  <image id="168" name="20231222_s0_denise_carter_act5_monllv_chunk_0084.png" width="480" height="480">
+  </image>
+  <image id="169" name="20231222_s0_denise_carter_act5_monllv_chunk_0100.png" width="480" height="480">
+  </image>
+  <image id="170" name="20231222_s0_denise_carter_act5_monllv_chunk_0132.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="343.62,446.84" z_order="0">
+    </points>
+  </image>
+  <image id="171" name="20231222_s0_denise_carter_act5_monllv_chunk_0148.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="232.01,298.94;200.40,404.30" z_order="0">
+    </points>
+  </image>
+  <image id="172" name="20231222_s0_denise_carter_act5_monllv_chunk_0164.png" width="480" height="480">
+  </image>
+  <image id="173" name="20231222_s0_denise_carter_act5_monllv_chunk_0196.png" width="480" height="480">
+  </image>
+  <image id="174" name="20231222_s0_denise_carter_act5_monllv_chunk_0212.png" width="480" height="480">
+  </image>
+  <image id="175" name="20231222_s0_denise_carter_act5_monllv_chunk_0244.png" width="480" height="480">
+  </image>
+  <image id="176" name="20231222_s0_denise_carter_act5_monllv_chunk_0260.png" width="480" height="480">
+  </image>
+  <image id="177" name="20231222_s0_denise_carter_act5_monllv_chunk_0276.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="102.45,273.18;77.86,351.23" z_order="0">
+    </points>
+  </image>
+  <image id="178" name="20231222_s0_denise_carter_act5_monllv_chunk_0292.png" width="480" height="480">
+  </image>
+  <image id="179" name="20231222_s0_denise_carter_act5_monllv_chunk_0308.png" width="480" height="480">
+  </image>
+  <image id="180" name="20231222_s0_denise_carter_act5_monllv_chunk_0324.png" width="480" height="480">
+  </image>
+  <image id="181" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0036.png" width="480" height="480">
+  </image>
+  <image id="182" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0052.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="261.28,347.33;242.94,428.50" z_order="0">
+    </points>
+  </image>
+  <image id="183" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0068.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="198.06,341.86;103.62,432.40" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="338.54,390.25;359.23,439.03" z_order="0">
+    </points>
+  </image>
+  <image id="184" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0084.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="221.08,320.79;132.89,416.01" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="310.06,316.11;409.18,341.47" z_order="0">
+    </points>
+  </image>
+  <image id="185" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0100.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="365.86,400.01" z_order="0">
+    </points>
+  </image>
+  <image id="186" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0116.png" width="480" height="480">
+  </image>
+  <image id="187" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0132.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="207.81,407.81;197.67,435.52" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="292.50,398.06;336.98,406.25" z_order="0">
+    </points>
+  </image>
+  <image id="188" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0148.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="265.57,423.03;249.18,445.67" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="336.20,354.74;376.79,415.23" z_order="0">
+    </points>
+  </image>
+  <image id="189" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0164.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="243.72,343.03;234.74,384.79" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="322.16,356.69;358.45,372.69" z_order="0">
+    </points>
+  </image>
+  <image id="190" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0180.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="235.91,327.81;178.55,403.13;142.25,444.89" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="338.54,369.57;386.55,397.28" z_order="0">
+    </points>
+  </image>
+  <image id="191" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0212.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="239.03,119.81;198.80,263.00;152.79,373.86" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="330.35,61.67;395.52,147.13;434.94,211.13" z_order="0">
+    </points>
+  </image>
+  <image id="192" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0244.png" width="480" height="480">
+  </image>
+  <image id="193" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0260.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="242.94,412.50;216.40,450.74" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="378.70,361.40;413.47,387.52" z_order="0">
+    </points>
+  </image>
+  <image id="194" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0276.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="227.33,293.08;191.42,382.84;171.52,444.50" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="384.98,344.59;417.00,378.50" z_order="0">
+    </points>
+  </image>
+  <image id="195" name="20231222_s1_kenneth_fischer_act0_og02e0_chunk_0292.png" width="480" height="480">
+  </image>
+  <image id="196" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0012.png" width="480" height="480">
+  </image>
+  <image id="197" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0028.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="199.23,378.94;183.62,419.91" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="324.89,360.20;358.06,399.62" z_order="0">
+    </points>
+  </image>
+  <image id="198" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0044.png" width="480" height="480">
+  </image>
+  <image id="199" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0092.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="318.25,389.86;347.52,435.52" z_order="0">
+    </points>
+  </image>
+  <image id="200" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0108.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="178.94,251.33;128.98,347.33" z_order="0">
+    </points>
+  </image>
+  <image id="201" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0140.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="221.86,392.20;338.55,421.08" z_order="0">
+    </points>
+  </image>
+  <image id="202" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0172.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="296.40,374.64;350.64,428.89" z_order="0">
+    </points>
+  </image>
+  <image id="203" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0204.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="311.62,304.79;363.91,375.03" z_order="0">
+    </points>
+  </image>
+  <image id="204" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0252.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="366.25,416.40;379.91,430.84" z_order="0">
+    </points>
+  </image>
+  <image id="205" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0268.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="320.59,366.06;360.79,435.13" z_order="0">
+    </points>
+  </image>
+  <image id="206" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0284.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="84.89,426.94" z_order="0">
+    </points>
+  </image>
+  <image id="207" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0316.png" width="480" height="480">
+  </image>
+  <image id="208" name="20231222_s1_kenneth_fischer_act5_osievi_chunk_0332.png" width="480" height="480">
+    <points label="joints" source="manual" occluded="0" points="338.94,310.25;377.18,412.89" z_order="0">
+    </points>
+    <points label="joints" source="manual" occluded="0" points="110.25,441.77" z_order="0">
+    </points>
+  </image>
+</annotations>

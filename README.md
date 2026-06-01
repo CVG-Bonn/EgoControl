@@ -256,12 +256,12 @@ python scripts/eval/body_control_eval.py \
 ## Citation
 
 ```bibtex
-@article{pallotta2025egocontrol,
-  title={EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses},
-  author={Pallotta, Enrico and Azar, Sina Mokhtarzadeh and Doorenbos, Lars and Ozsoy, Serdar and Iqbal, Umar and Gall, Juergen},
-  journal={arXiv preprint arXiv:2511.18173},
-  year={2025}
+@InProceedings{Pallotta_2026_CVPR,
+    author    = {Pallotta, Enrico and Azar, Sina Mokhtarzadeh and Doorenbos, Lars and Ozsoy, Serdar and Iqbal, Umar and Gall, Juergen},
+    title     = {EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {4269-4279}
 }
 ```
-
-> _Citation will be updated with the CVPR proceedings once released._

@@ -39,6 +39,7 @@
 - [Evaluation](#evaluation)
   - [Visual Quality Metrics](#visual-quality-metrics-ssim-lpips-dreamsim-fid-fvd)
   - [Body Control Accuracy](#body-control-accuracy-miou)
+- [Training](#training) 
 - [Citation](#citation)
 
 ---
@@ -252,6 +253,20 @@ python scripts/eval/body_control_eval.py \
 ```
 
 ---
+## Training
+A config file is needed to define the experiment configuration (dataset, model, parameters ...).
+You can find an example [here](cosmos-predict2/cosmos_predict2/configs/pose_conditioned/experiment/fullbody_control.py) defining an experiment named "predict2_video2world_2b_pose_control".
+
+To run the experiment use the following command:
+```shell
+cd cosmos-predict2
+
+torchrun --nproc_per_node=4 --nnodes $SLURM_NNODES -m scripts.train \
+  --config=cosmos_predict2/configs/base/config.py \
+  -- experiment=predict2_video2world_2b_pose_control
+```
+
+Note: this command might vary based on your server setup.
 
 ## Citation
 

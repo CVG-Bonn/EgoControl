@@ -14,6 +14,7 @@
 &ast;Equal Contribution
 
 <h3>⭐ CVPR 2026</h3>
+<h4>🏆 Outstanding paper at <a href=https://human-motion-world-model.github.io/>HuMoWM@ECCVW'26</a> and <a href=https://uniworld-ai.github.io/>UniWorld@ECCVW'26</a></h4>
 
 [![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2511.18173)
 [![Project Page Badge](https://img.shields.io/badge/Project-EgoControl-Green)](https://cvg-bonn.github.io/EgoControl/)

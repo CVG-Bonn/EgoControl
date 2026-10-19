@@ -118,6 +118,7 @@ nymeria_root/
     └── video_name_01/
         └── recording_head.mp4   # video from the main RGB camera
 ```
+EgoControl used a subset of Nymeria sequences reported, look at [`train_sequences.txt`](train_sequences.txt) and [`eval_sequences.txt`](eval_sequences.txt).
 
 We recommend using [`scripts/data/precompute_latents.py`](scripts/data/precompute_latents.py) to precompute and cache latents for faster training. It stores a subfolder `latents_{height}x{width}_{target_fps}fps_{frames_per_clip}f/` inside each `video_name_XX/` directory.
 
